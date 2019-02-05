@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected String doInBackground(String... strings) {
             try {
-                URL url = new URL ("http://vservices.com.br/servicos/servicos/login_android");
+                URL url = new URL ("SUA URL AQUI");
                 JSONObject json = new JSONObject();
 
                 json.put("email", login);
